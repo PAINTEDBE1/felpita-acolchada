@@ -1,0 +1,25 @@
+[20:43:44] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.16.3
+[20:43:44] [main/WARN]: Mod resolution failed
+[20:43:44] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE mcwpaths 1.1.0 {depends fabricloader @ [>=0.16.10]}, ROOT_FORCELOAD_SINGLE mcwpaths 1.1.0]
+[20:43:44] [main/INFO]: Reason: [HARD_DEP mcwpaths 1.1.0 {depends fabricloader @ [>=0.16.10]}, HARD_DEP sophisticatedbackpacks 3.19.5+mc1.19.4-SNAPSHOT-build.105 {depends sophisticatedcore @ [>=0.5.109+mc1.19.4-SNAPSHOT-build.105]}, HARD_DEP waystones 13.1.0 {depends cloth-config @ [>=9.0.0]}, HARD_DEP waystones 13.1.0 {depends balm-fabric @ [>=6.0.0]}]
+[20:43:44] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-model-loading-api-v1, fabric-keybindings-v0, terrestria-client, fabric-client-tags-api-v1, fabric-screen-api-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1, fabric-renderer-registries-v1, fabric-models-v0, fabric-rendering-v0, fabric-sound-api-v1, fabric-key-binding-api-v1, fabric-rendering-v1]
+[20:43:44] [main/INFO]: Fix: add [add:sophisticatedcore 0.5.109+mc1.19.4-SNAPSHOT-build.105 ([[0.5.109+mc1.19.4-SNAPSHOT-build.105,∞)]), add:cloth-config 9.0.0 ([[9.0.0,∞)]), add:balm-fabric 6.0.0 ([[6.0.0,∞)])], remove [], replace [[fabricloader 0.16.3] -> add:fabricloader 0.16.10 ([[0.16.10,∞)])]
+[20:43:44] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Install sophisticatedcore, version 0.5.109+mc1.19.4-SNAPSHOT-build.105 or later.
+	 - Install cloth-config, version 9.0.0 or later.
+	 - Install balm-fabric, version 6.0.0 or later.
+	 - Replace mod 'Fabric Loader' (fabricloader) 0.16.3 with version 0.16.10 or later.
+More details:
+	 - Mod 'Macaw's Paths and Pavings' (mcwpaths) 1.1.0 requires version 0.16.10 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Sophisticated Backpacks' (sophisticatedbackpacks) 3.19.5+mc1.19.4-SNAPSHOT-build.105 requires version 0.5.109+mc1.19.4-SNAPSHOT-build.105 or later of sophisticatedcore, which is missing!
+	 - Mod 'Waystones' (waystones) 13.1.0 requires version 9.0.0 or later of cloth-config, which is missing!
+	 - Mod 'Waystones' (waystones) 13.1.0 requires version 6.0.0 or later of balm-fabric, which is missing!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
