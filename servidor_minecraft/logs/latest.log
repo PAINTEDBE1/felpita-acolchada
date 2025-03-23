@@ -1,5 +1,5 @@
-[05:57:03] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.16.10
-[05:57:03] [main/INFO]: Loading 49 mods:
+[02:51:39] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.16.10
+[02:51:39] [main/INFO]: Loading 62 mods:
 	- architectury 8.2.91
 	- balm-fabric 6.0.2
 	- cloth-config 10.1.135
@@ -61,93 +61,114 @@
 	- minecraft 1.19.4
 	- roughlyenoughitems 11.1.769
 	   \-- error_notifier 1.0.9
-	- waystones 13.1.0
-[05:57:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/felpita-acolchada/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[05:57:03] [main/INFO]: Compatibility level set to JAVA_16
-[05:57:03] [main/INFO]: Compatibility level set to JAVA_17
-[05:57:04] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[05:57:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[05:57:10] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
-[05:57:10] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[05:57:10] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
-[05:57:10] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[05:57:10] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
-[05:57:10] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
-[05:57:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[05:57:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[05:57:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[05:57:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[05:57:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
-[05:57:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[05:57:10] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05:57:11] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[05:57:11] [main/INFO]: Loaded 7 recipes
-[05:57:12] [main/INFO]: Loaded 1179 advancements
-[05:57:12] [main/INFO]: [REI] ========================================
-[05:57:12] [main/INFO]: [REI] REIPlugin starting main-reload for START.
-[05:57:12] [main/INFO]: [REI] Plugins (3):
-[05:57:12] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[05:57:12] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[05:57:12] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[05:57:12] [main/INFO]: [REI] ========================================
-[05:57:12] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
-[05:57:12] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
-[05:57:12] [main/INFO]: [REI] Plugins (3):
-[05:57:12] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[05:57:12] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[05:57:12] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[05:57:12] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
-[05:57:12] [main/INFO]: [REI] REIPlugin finished post-reload for START in 2.727 ms, totaling 34.82 ms.
-[05:57:12] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 1.141 ms, totaling 6.732 ms.
-[05:57:12] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[05:57:12] [main/INFO]: [REI] REIPlugin starting main-reload for END.
-[05:57:12] [main/INFO]: [REI] Plugins (3):
-[05:57:12] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[05:57:12] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[05:57:12] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[05:57:12] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[05:57:12] [main/INFO]: [REI] ****************************************
-[05:57:12] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
-[05:57:12] [main/INFO]: [REI] Plugins (3):
-[05:57:12] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[05:57:12] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[05:57:12] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[05:57:12] [main/INFO]: [REI] ****************************************
-[05:57:12] [main/INFO]: [REI] REIPlugin finished post-reload for END in 1.611 ms, totaling 33.40 ms.
-[05:57:12] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 768.2 μs, totaling 7.250 ms.
-[05:57:12] [main/INFO]: Applied 63 biome modifications to 63 of 63 new biomes in 7.872 ms
-[05:57:12] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[05:57:12] [Server thread/INFO]: Loading properties
-[05:57:12] [Server thread/INFO]: Default game type: SURVIVAL
-[05:57:12] [Server thread/INFO]: Generating keypair
-[05:57:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:57:12] [Server thread/INFO]: Using epoll channel type
-[05:57:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:57:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:57:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:57:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:57:12] [Server thread/INFO]: Preparing level "world"
-[05:57:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:57:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:57:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[05:57:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[05:57:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[05:57:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[05:57:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[05:57:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:57:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:57:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:57:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:57:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:57:21] [Worker-Main-1/INFO]: Preparing spawn area: 19%
-[05:57:21] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[05:57:21] [Server thread/INFO]: Time elapsed: 6124 ms
-[05:57:21] [Server thread/INFO]: Done (8.888s)! For help, type "help"
-[06:01:30] [Server thread/INFO]: PAINTEDBE1[/127.123.165.218:35085] logged in with entity id 344 at (-11.215618870016039, 71.0, 30.326093969154364)
-[06:01:30] [Server thread/INFO]: PAINTEDBE1 joined the game
-[06:01:44] [Server thread/INFO]: PAINTEDBE1 lost connection: Disconnected
-[06:01:44] [Server thread/INFO]: PAINTEDBE1 left the game
-[06:06:36] [Server thread/INFO]: PAINTEDBE1[/127.123.165.218:58145] logged in with entity id 381 at (-11.215618870016039, 71.0, 30.326093969154364)
-[06:06:36] [Server thread/INFO]: PAINTEDBE1 joined the game
-[06:06:49] [Server thread/INFO]: PAINTEDBE1 lost connection: Disconnected
-[06:06:49] [Server thread/INFO]: PAINTEDBE1 left the game
+	- terrablender 2.3.0.22
+	   |-- com_electronwill_night-config_core 3.6.4
+	   \-- com_electronwill_night-config_toml 3.6.4
+	- terrestria 5.2.7
+	   |-- biolith 0.0.1-alpha.4
+	   |-- terraform-biome-remapper-api-v1 6.1.3
+	   |-- terraform-config-api-v1 6.1.3
+	   |-- terraform-dirt-api-v1 6.1.3
+	   |-- terraform-shapes-api-v1 6.1.3
+	   |-- terraform-surfaces-api-v1 6.1.3
+	   |-- terraform-tree-api-v1 6.1.3
+	   |-- terraform-wood-api-v1 6.1.3
+	   |-- terrestria-client 5.2.7
+	   |-- terrestria-common 5.2.7
+	   \-- terrestria-worldgen 5.2.7
+[02:51:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/felpita-acolchada/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[02:51:39] [main/INFO]: Compatibility level set to JAVA_16
+[02:51:39] [main/INFO]: Compatibility level set to JAVA_17
+[02:51:40] [main/WARN]: Reference map 'terrestria-worldgen-refmap.json' for mixins.terrestria-worldgen.json could not be read. If this is a development environment you can ignore this message
+[02:51:40] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[02:51:46] [main/INFO]: Biolith is loaded!
+[02:51:46] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[02:51:46] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[02:51:46] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[02:51:46] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[02:51:46] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[02:51:46] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[02:51:46] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[02:51:46] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[02:51:46] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[02:51:46] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[02:51:46] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[02:51:46] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[02:51:46] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[02:51:47] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[02:51:47] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[02:51:47] [main/INFO]: Registered region terrestria:overworld to index 1 for type OVERWORLD
+[02:51:47] [main/INFO]: Registered region terrestria:overworld_rare to index 2 for type OVERWORLD
+[02:51:47] [main/INFO]: Enabling Terrestria's TerraBlender worldgen module.
+[02:51:47] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:51:48] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[02:51:49] [main/INFO]: Loaded 7 recipes
+[02:51:49] [main/INFO]: Loaded 1365 advancements
+[02:51:49] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[02:51:49] [main/INFO]: [REI] REIPlugin starting main-reload for START.
+[02:51:49] [main/INFO]: [REI] Plugins (3):
+[02:51:49] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[02:51:49] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[02:51:49] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[02:51:49] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[02:51:49] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[02:51:49] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[02:51:49] [main/INFO]: [REI] Plugins (3):
+[02:51:49] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[02:51:49] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[02:51:49] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[02:51:49] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[02:51:49] [main/INFO]: [REI] REIPlugin finished post-reload for START in 4.451 ms, totaling 43.58 ms.
+[02:51:49] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 2.305 ms, totaling 12.63 ms.
+[02:51:49] [main/INFO]: [REI] ========================================
+[02:51:49] [main/INFO]: [REI] REIPlugin starting main-reload for END.
+[02:51:49] [main/INFO]: [REI] Plugins (3):
+[02:51:49] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[02:51:49] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[02:51:49] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[02:51:49] [main/INFO]: [REI] ========================================
+[02:51:49] [main/INFO]: [REI] ########################################
+[02:51:49] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[02:51:49] [main/INFO]: [REI] Plugins (3):
+[02:51:49] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[02:51:49] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[02:51:49] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[02:51:49] [main/INFO]: [REI] ########################################
+[02:51:49] [main/INFO]: [REI] REIPlugin finished post-reload for END in 1.726 ms, totaling 42.25 ms.
+[02:51:49] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 895.7 μs, totaling 8.092 ms.
+[02:51:50] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[02:51:50] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[02:51:50] [main/INFO]: Applied 0 biome modifications to 0 of 84 new biomes in 1.803 ms
+[02:51:50] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[02:51:50] [Server thread/INFO]: Loading properties
+[02:51:50] [Server thread/INFO]: Default game type: SURVIVAL
+[02:51:50] [Server thread/INFO]: Generating keypair
+[02:51:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:51:51] [Server thread/INFO]: Using epoll channel type
+[02:51:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:51:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:51:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:51:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:51:51] [Server thread/INFO]: Preparing level "world"
+[02:51:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:51:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:51:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:51:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:51:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:51:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[02:51:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[02:51:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:51:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:51:59] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:51:59] [Worker-Main-2/INFO]: Preparing spawn area: 23%
+[02:52:00] [Worker-Main-3/INFO]: Preparing spawn area: 80%
+[02:52:00] [Server thread/INFO]: Time elapsed: 5211 ms
+[02:52:00] [Server thread/INFO]: Done (9.190s)! For help, type "help"
+[02:52:22] [Server thread/INFO]: PAINTEDBE1[/127.123.165.218:34331] logged in with entity id 287 at (23.517247228880123, 74.0, 3.2107656080466924)
+[02:52:22] [Server thread/INFO]: PAINTEDBE1 joined the game
+[02:52:38] [Server thread/INFO]: PAINTEDBE1 lost connection: Disconnected
+[02:52:38] [Server thread/INFO]: PAINTEDBE1 left the game
+[02:58:01] [Server thread/INFO]: PAINTEDBE1[/127.123.165.218:34887] logged in with entity id 337 at (23.517247228880123, 74.0, 3.2107656080466924)
+[02:58:01] [Server thread/INFO]: PAINTEDBE1 joined the game
+[02:58:52] [Server thread/INFO]: PAINTEDBE1 lost connection: Disconnected
+[02:58:52] [Server thread/INFO]: PAINTEDBE1 left the game
